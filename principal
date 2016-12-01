@@ -18,7 +18,6 @@
 <listrepeat><![CDATA[
  <title>[COLOR red]•[/COLOR][COLOR white]  [makelist.param2][/COLOR]</title>
  <link>[makelist.param3]</link>
- <thumbnail>[makelist.param4]</thumbnail>
  <fanart>https://goo.gl/20FLFn</fanart>
  ]]></listrepeat>
 <expres>EXTINF:(.*),(.*)\n(.*)</expres>
