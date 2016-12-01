@@ -1,6 +1,7 @@
 <item>
 <title>[COLOR gold]TV Nacional[/COLOR]</title>
 <link>$doregex[makelist]</link>
+<fanart>https://goo.gl/20FLFn</fanart>
 <thumbnail>https://cld.pt/dl/download/3ba71940-29fa-456f-a1f6-034435a5a479/tv.png</thumbnail>
 <regex>
 <name>makelist</name>
