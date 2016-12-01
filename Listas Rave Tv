@@ -7,9 +7,9 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 	<title>[COLOR red]•[/COLOR][COLOR white]  [makelist.param1][/COLOR]</title>
-	<link>plugin://plugin.video.f4mTester/?url=[makelist.param3]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist.param1]$$lsname=[COLOR gold]Rave Tv:  [/COLOR][COLOR green]Link 1[/COLOR]</link>
-	<link>plugin://plugin.video.f4mTester/?url=[makelist.param4]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist.param1]$$lsname=[COLOR gold]Rave Tv:  [/COLOR][COLOR green]Link 2[/COLOR]</link>
-	<link>plugin://plugin.video.f4mTester/?url=[makelist.param5]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist.param1]$$lsname=[COLOR gold]Rave Tv:  [/COLOR][COLOR green]Link 3[/COLOR]</link>
+	<link>plugin://plugin.video.f4mTester/?url=[makelist.param3]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist.param1]$$lsname=[COLOR green]Link 1[/COLOR]</link>
+	<link>plugin://plugin.video.f4mTester/?url=[makelist.param4]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist.param1]$$lsname=[COLOR green]Link 2[/COLOR]</link>
+	<link>plugin://plugin.video.f4mTester/?url=[makelist.param5]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist.param1]$$lsname=[COLOR green]Link 3[/COLOR]</link>
 	<thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
 <expres>NOME=(.*?)\nLOGO=(.*[jpg|png]).*?\n(.*?)\n(.*?)\n(.*?)\n</expres>
