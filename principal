@@ -2,7 +2,7 @@
 
 
 <item>
-	<title>[COLOR gold]►[/COLOR][COLOR white]   Listas Rave [/COLOR][COLOR red]Tv[/COLOR]</title>
+	<title>[COLOR red]•[/COLOR][COLOR white]   Listas Rave [/COLOR][COLOR red]Tv[/COLOR]</title>
 	<link>_</link>
 	<externallink>https://raw.githubusercontent.com/ListTxT/List/master/Listas%20Rave%20Tv</externallink>
 	<thumbnail>https://goo.gl/5ZJopo</thumbnail>
@@ -11,7 +11,7 @@
 
 
 <item>
-<title>[COLOR red]Rádios[/COLOR]</title>
+<title>[COLOR red]•[/COLOR] [COLOR white]   Rádios[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -29,7 +29,7 @@
 
 
 <item>     
-<title>[COLOR red]Agendas Desportivas - Plexus/Sopcast[/COLOR]</title>
+<title>[COLOR red]•[/COLOR][COLOR white]   Agendas Desportivas - Plexus/Sopcast[/COLOR]</title>
 <link>_</link>
 <jsonrpc>plugin://plugin.video.plexus-streams?mode=400</jsonrpc>
 <thumbnail>https://goo.gl/A0T3RY</thumbnail>
@@ -39,7 +39,7 @@
 
 
 <item>
-	<title>[COLOR snow]Test Zone[/COLOR]</title>
+	<title>[COLOR red]•[/COLOR][COLOR white]   Test Zone[/COLOR]</title>
 	<link>_</link>
 	<externallink>https://raw.githubusercontent.com/ListTxT/List/master/testes</externallink>
 	<fanart>https://goo.gl/20FLFn</fanart>
