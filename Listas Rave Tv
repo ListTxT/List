@@ -1,12 +1,12 @@
 <item>
-<title>[COLOR gold]TV Nacional[/COLOR]</title>
+<title>[COLOR white]TV Nacional[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <fanart>https://goo.gl/20FLFn</fanart>
 <thumbnail>https://cld.pt/dl/download/3ba71940-29fa-456f-a1f6-034435a5a479/tv.png</thumbnail>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-	<title>[COLOR red]•[/COLOR][COLOR gold]  [makelist.param1][/COLOR]</title>
+	<title>[COLOR red]•[/COLOR][COLOR white]  [makelist.param1][/COLOR]</title>
 	<link>plugin://plugin.video.f4mTester/?url=[makelist.param3]&amp;streamtype=TSDOWNLOADER&amp;name=Rave Tv: [makelist.param1]$$lsname=[COLOR gold]Rave Tv:  [/COLOR][COLOR green]Link 1[/COLOR]</link>
 	<link>plugin://plugin.video.f4mTester/?url=[makelist.param4]&amp;streamtype=TSDOWNLOADER&amp;name=Rave Tv: [makelist.param1]$$lsname=[COLOR gold]Rave Tv:  [/COLOR][COLOR green]Link 2[/COLOR]</link>
 	<link>plugin://plugin.video.f4mTester/?url=[makelist.param5]&amp;streamtype=TSDOWNLOADER&amp;name=Rave Tv: [makelist.param1]$$lsname=[COLOR gold]Rave Tv:  [/COLOR][COLOR green]Link 3[/COLOR]</link>
