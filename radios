@@ -1,0 +1,15 @@
+<item>
+<title>[COLOR red]•[/COLOR][COLOR gold]  Rádios[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red]•[/COLOR][COLOR gold]  [makelist.param2][/COLOR]</title>
+ <link>[makelist.param3]</link>
+ <thumbnail>https://roddycleere.files.wordpress.com/2015/11/shutterstock_104927240.jpg</thumbnail>
+ ]]></listrepeat>
+<expres>EXTINF:(.*),(.*)\n(.*)</expres>
+<page>https://pastebin.com/raw/A5uc8zrt</page>
+</regex>
+<thumbnail>https://roddycleere.files.wordpress.com/2015/11/shutterstock_104927240.jpg</thumbnail>
+</item>
