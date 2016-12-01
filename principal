@@ -5,8 +5,8 @@
 	<title>[COLOR red]Listas Rave Tv[/COLOR]</title>
 	<link>_</link>
 	<externallink>https://raw.githubusercontent.com/ListTxT/List/master/Listas%20Rave%20Tv</externallink>
-	<thumbnail>https://i.imgsafe.org/7ad9b6912f.png</thumbnail>
-	<fanart>https://i.imgsafe.org/70b260028a.jpg</fanart>
+	<thumbnail>https://goo.gl/5ZJopo</thumbnail>
+	<fanart>https://goo.gl/20FLFn</fanart>
 </item>
 
 
@@ -23,7 +23,8 @@
 <expres>EXTINF:(.*),(.*)\n(.*)</expres>
 <page>http://pastebin.com/raw/daXFhccq</page>
 </regex>
-<thumbnail>https://roddycleere.files.wordpress.com/2015/11/shutterstock_104927240.jpg</thumbnail>
+<fanart>https://goo.gl/20FLFn</fanart>
+<thumbnail>https://goo.gl/PVIhCd</thumbnail>
 </item>
 
 
@@ -31,8 +32,8 @@
 <title>[COLOR red]Agendas Desportivas - Plexus/Sopcast[/COLOR]</title>
 <link>_</link>
 <jsonrpc>plugin://plugin.video.plexus-streams?mode=400</jsonrpc>
-<thumbnail>https://i.imgsafe.org/7ad825e711.png</thumbnail>
-<fanart>https://i.imgsafe.org/70b260028a.jpg</fanart>
+<thumbnail>https://goo.gl/A0T3RY</thumbnail>
+<fanart>https://goo.gl/20FLFn</fanart>
 </item>
 
 
@@ -40,8 +41,8 @@
 	<title>[COLOR skyblue]Maintenance Tool[/COLOR]</title>
 	<link>_</link>
 	<externallink>https://raw.githubusercontent.com/teamjmflist/list/master/maintenance%20tool</externallink>
-	<thumbnail>https://i.imgsafe.org/70b3b27c63.png</thumbnail>
-	<fanart>https://i.imgsafe.org/70b260028a.jpg</fanart>
+	<thumbnail>https://goo.gl/OfKs3y</thumbnail>
+	<fanart>https://goo.gl/20FLFn</fanart>
 </item>
 
 
@@ -49,5 +50,6 @@
 	<title>[COLOR snow]Test Zone[/COLOR]</title>
 	<link>_</link>
 	<externallink>https://raw.githubusercontent.com/teamjmflist/list/master/testes</externallink>
-	<thumbnail>http://media.tumblr.com/tumblr_m55ybrgExP1qeda2c.gif</thumbnail>
+	<fanart>https://goo.gl/20FLFn</fanart>
+	<thumbnail>https://goo.gl/U9m8wP</thumbnail>
 </item>
