@@ -1,85 +1,17 @@
 <item>
-<title>[COLOR red]•[/COLOR][COLOR gold]  Listas Team j2mf4 - Nova listagem [/COLOR]</title>
-<link>$doregex[makelist2]</link>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
- <title>[COLOR red]•[/COLOR][COLOR gold]  [makelist2.param1][/COLOR]</title>
- <link>$doregex[makelist]</link>
- <thumbnail>https://i.imgsafe.org/70b3b27c63.png</thumbnail>
- <fanart></fanart>
- ]]></listrepeat>
-<expres>Lista:"(.*?)" URL="(.*?)"</expres>
-<page>https://pastebin.com/raw/kg6T6Cju</page>
-</regex>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
- <title>[COLOR red]•[/COLOR][COLOR gold]  [makelist.param2][/COLOR]</title>
- <link>plugin://plugin.video.f4mTester/?url=[makelist.param3]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Team j2mf4: [makelist.param2]</link>
- <thumbnail>[makelist.param1]</thumbnail>
- ]]></listrepeat>
-<expres>EXTINF:.*?logo="(.*?)".*,(.*?)\n(.*ts)</expres>
-<page>[makelist2.param2]</page>
-</regex>
-<thumbnail>https://i.imgsafe.org/70b3b27c63.png</thumbnail>
-</item>
-
-
-
-<regex>
-<name>get-urlencoded</name>
-<expres>$pyFunction:urllib.quote_plus('[makelist.param3]|User-Agent=VLC')<expres>
-<page></page>
-</regex>
-
-
-
-
-
-<item>
-<title>[COLOR red]•[/COLOR][COLOR gold]  TV Nacional [/COLOR][COLOR red]EM CONSTRUÇÃO[/COLOR]</title>
+<title>[COLOR gold]TV Nacional[/COLOR]</title>
 <link>$doregex[makelist]</link>
-<thumbnail>http://www.proprofs.com/quiz-school/topic_images/p18lq7ediepl816p6s04171vo23.jpg</thumbnail>
+<thumbnail>https://cld.pt/dl/download/3ba71940-29fa-456f-a1f6-034435a5a479/tv.png</thumbnail>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 	<title>[COLOR red]•[/COLOR][COLOR gold]  [makelist.param1][/COLOR]</title>
-	<link>plugin://plugin.video.f4mTester/?url=[makelist.param3]&amp;streamtype=TSDOWNLOADER&amp;name=Team j2mf4: [makelist.param1]$$lsname=[COLOR gold]Team j2mf4:  [/COLOR][COLOR green]Link 1[/COLOR]</link>
-	<link>plugin://plugin.video.f4mTester/?url=[makelist.param4]&amp;streamtype=TSDOWNLOADER&amp;name=Team j2mf4: [makelist.param1]$$lsname=[COLOR gold]Team j2mf4:  [/COLOR][COLOR green]Link 2[/COLOR]</link>
-	<link>plugin://plugin.video.f4mTester/?url=[makelist.param5]&amp;streamtype=TSDOWNLOADER&amp;name=Team j2mf4: [makelist.param1]$$lsname=[COLOR gold]Team j2mf4:  [/COLOR][COLOR green]Link 3[/COLOR]</link>
+	<link>plugin://plugin.video.f4mTester/?url=[makelist.param3]&amp;streamtype=TSDOWNLOADER&amp;name=Rave Tv: [makelist.param1]$$lsname=[COLOR gold]Rave Tv:  [/COLOR][COLOR green]Link 1[/COLOR]</link>
+	<link>plugin://plugin.video.f4mTester/?url=[makelist.param4]&amp;streamtype=TSDOWNLOADER&amp;name=Rave Tv: [makelist.param1]$$lsname=[COLOR gold]Rave Tv:  [/COLOR][COLOR green]Link 2[/COLOR]</link>
+	<link>plugin://plugin.video.f4mTester/?url=[makelist.param5]&amp;streamtype=TSDOWNLOADER&amp;name=Rave Tv: [makelist.param1]$$lsname=[COLOR gold]Rave Tv:  [/COLOR][COLOR green]Link 3[/COLOR]</link>
 	<thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
 <expres>NOME=(.*?)\nLOGO=(.*[jpg|png]).*?\n(.*?)\n(.*?)\n(.*?)\n</expres>
 <page>http://pastebin.com/raw/vmS3skJq</page>
 </regex>
 </item>
-
-
-<item>
-<title>[COLOR red]•[/COLOR][COLOR gold]  Filmes temporários das listas [/COLOR]</title>
-<link>$doregex[makelist2]</link>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
- <title>[COLOR red]•[/COLOR][COLOR gold]  [makelist2.param1][/COLOR]</title>
- <link>$doregex[makelist]</link>
- <thumbnail>https://i.imgsafe.org/7ad9b6912f.png</thumbnail>
- <fanart></fanart>
- ]]></listrepeat>
-<expres>Lista:"(.*?)" URL="(.*?)"</expres>
-<page>https://pastebin.com/raw/kg6T6Cju</page>
-</regex>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR red]•[/COLOR][COLOR gold]  [makelist.param1] [/COLOR]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          [COLOR black]([makelist.param3])[/COLOR]</title>
-<link>[makelist.param2]</link>
- <thumbnail>https://i.imgsafe.org/7ad9b6912f.png</thumbnail>
- ]]></listrepeat>
-<expres>#EXTINF:.*?,(.*?)\n(.*mkv|.*mp4|.*avi)</expres>
-<page>[makelist2.param2]</page>
-<thumbnail>https://i.imgsafe.org/7ad9b6912f.png</thumbnail>
-</regex>
-</item>
-
