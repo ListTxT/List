@@ -1,0 +1,14 @@
+<item>
+<title>http://altadefinizione.zone</title>
+<link>$doregex[makelist1]</link>
+<regex>
+<name>makelist1</name>
+<listrepeat><![CDATA[
+<title>[makelist1.param2]</title>
+<link>$doregex[makelist]</link>
+]]></listrepeat>
+<expres><![CDATA[<a href="(/film-streaming.*?)">(.*?)</a></li>]]></expres>
+<page>http://altadefinizione.zone</page>
+<cookieJar></cookieJar>
+</regex>
+
