@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<item>
+	<title>[COLOR red]•[/COLOR][COLOR gold]  Listas Team j2mf4 [/COLOR][COLOR red]•[/COLOR][COLOR blue] EM CONSTRUÇÃO[/COLOR]</title>
+	<link>_</link>
+	<externallink>https://raw.githubusercontent.com/teamjmflist/list/master/Listas%20Team%20j2mf4</externallink>
+	<thumbnail>https://i.imgsafe.org/7ad9b6912f.png</thumbnail>
+	<fanart>https://i.imgsafe.org/70b260028a.jpg</fanart>
+</item>
+
+
+
+<_item>
+<title>[COLOR red]•[/COLOR][COLOR gold]  Listas Team j2mf4[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red]•[/COLOR][COLOR gold]  [makelist2.param1][/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <thumbnail>https://i.imgsafe.org/7ad9b6912f.png</thumbnail>
+ <fanart>https://i.imgsafe.org/70b260028a.jpg</fanart>
+ ]]></listrepeat>
+<expres>Lista:"(.*?)" URL="(.*?)"</expres>
+<page>https://pastebin.com/raw/kg6T6Cju</page>
+</regex>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red]•[/COLOR][COLOR gold]  [makelist.param2][/COLOR]</title>
+ <link>$doregex[url]<link>
+ <thumbnail>https://i.imgsafe.org/7ad9b6912f.png</thumbnail>
+ <fanart>https://i.imgsafe.org/70b260028a.jpg</fanart>
+ ]]></listrepeat>
+<expres>EXTINF:(.*),(.*)\n(.*[ts|mkv|mp4|m3u8])</expres>
+<page>[makelist2.param2]</page>
+</regex>
+<regex>
+<name>url</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    url = '[makelist.param3]'
+    u = url
+    if '.ts' in url:
+        u = 'plugin://plugin.video.f4mTester/?url=%s&streamtype=TSDOWNLOADER&name=Team j2mf4'%url
+    elif '.m3u8' in url:
+        u = 'plugin://plugin.video.f4mTester/?url=%s&streamtype=HLS&name=Team j2mf4'%url
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgsafe.org/7ad9b6912f.png</thumbnail>
+</item>
+
+<item>
+<title>[COLOR red]•[/COLOR][COLOR gold]  Listas Team j2mf4[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red]•[/COLOR][COLOR gold]  [makelist2.param1][/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <thumbnail>https://i.imgsafe.org/7ad9b6912f.png</thumbnail>
+ <fanart></fanart>
+ ]]></listrepeat>
+<expres>Lista:"(.*?)" URL="(.*?)"</expres>
+<page>https://pastebin.com/raw/kg6T6Cju</page>
+</regex>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red]•[/COLOR][COLOR gold]  [makelist.param1][/COLOR]</title>
+ <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;name=Team j2mf4: [makelist.param1]</link>
+ <thumbnail>https://i.imgsafe.org/7ad9b6912f.png</thumbnail>
+ ]]></listrepeat>
+<expres>#EXTINF.*?,(.*?)\n(.*[ts])</expres>
+<page>[makelist2.param2]</page>
+</regex>
+<thumbnail>https://i.imgsafe.org/7ad9b6912f.png</thumbnail>
+</item>
+
+<regex>
+<name>get-urlencoded</name>
+<expres>$pyFunction:urllib.quote_plus('[makelist.param2]|User-Agent=VLC')<expres>
+<page></page>
+</regex>
+
+
+
+
+
+
+<_item>
+<title>[COLOR red]•[/COLOR][COLOR gold]  Listas Team j2mf4 - TESTE LOGOS[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red]•[/COLOR][COLOR gold]  [makelist2.param1][/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <thumbnail>https://i.imgsafe.org/70b3b27c63.png</thumbnail>
+ <fanart></fanart>
+ ]]></listrepeat>
+<expres>Lista:"(.*?)" URL="(.*?)"</expres>
+<page>https://pastebin.com/raw/kg6T6Cju</page>
+</regex>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red]•[/COLOR][COLOR gold]  [makelist.param3][/COLOR]</title>
+ <link>plugin://plugin.video.f4mTester/?url=[makelist.param4]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Team j2mf4: [makelist.param3]</link>
+ <thumbnail>[makelist.param2]</thumbnail>
+ ]]></listrepeat>
+<expres>EXTINF:(.*)tvg-logo="(.*)",(.*)\n(.*)</expres>
+<page>[makelist2.param2]</page>
+</regex>
+<thumbnail>https://i.imgsafe.org/70b3b27c63.png</thumbnail>
+</item>
+
+
+<_item>
+<title>[COLOR red]•[/COLOR][COLOR gold]  Listas dos membros da Team j2mf4[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red]•[/COLOR][COLOR gold]  [makelist2.param1][/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <thumbnail>https://i.imgsafe.org/70b3b27c63.png</thumbnail>
+ <fanart></fanart>
+ ]]></listrepeat>
+<expres>Lista:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/teamjmflist/list/master/listas%20membros%20team%20j2mf4</page>
+</regex>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red]•[/COLOR][COLOR gold]  [makelist.param1][/COLOR]</title>
+ <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Team j2mf4: [makelist.param1]</link>
+ <thumbnail>https://i.imgsafe.org/70b3b27c63.png</thumbnail>
+ ]]></listrepeat>
+<expres>#EXTINF:-1,[makelist2.param3](.*?)\n(.*)</expres>
+<page>[makelist2.param2]</page>
+</regex>
+<thumbnail>https://i.imgsafe.org/70b3b27c63.png</thumbnail>
+</item>
+
+<item>
+	<title>[COLOR red]•[/COLOR][COLOR gold]  TV Streaming [/COLOR]</title>
+	<link>_</link>
+	<externallink>https://raw.githubusercontent.com/teamjmflist/list/master/web%20streaming</externallink>
+	<thumbnail>https://i.imgsafe.org/5fd4ebb62d.jpg</thumbnail>
+</item>
+
+<item>
+	<title>[COLOR red]•[/COLOR][COLOR gold]  Cinema [/COLOR]</title>
+	<link>_</link>
+	<externallink>https://raw.githubusercontent.com/teamjmflist/list/master/cinema</externallink>
+	<thumbnail>https://i.imgsafe.org/70b3b27c63.png</thumbnail>
+</item>
+
+
+
+<item>     
+<title>[COLOR red]•[/COLOR][COLOR gold]  Listas automáticas [/COLOR]</title>
+<link>_</link>
+<externallink>https://raw.githubusercontent.com/teamjmflist/list/master/listas%20autom%C3%A1ticas</externallink>
+<thumbnail>https://i.imgsafe.org/7addeb5aab.png</thumbnail>
+<fanart>https://i.imgsafe.org/620c649862.gif</fanart>
+</item>
+
+<_item>     
+<title>[COLOR red]•[/COLOR][COLOR gold]  Filmes [/COLOR][COLOR green](em testes)[/COLOR]</title>
+<link>_</link>
+<externallink>http://pastebin.com/raw/LU1vp6cS</externallink>
+<thumbnail>https://i.imgsafe.org/70b3b27c63.png</thumbnail>
+<fanart>https://i.imgsafe.org/70b260028a.jpg</fanart>
+</item>
+
+<item>     
+<title>[COLOR red]•[/COLOR][COLOR gold]  Rádios e Webcams [/COLOR]</title>
+<link>_</link>
+<externallink>https://raw.githubusercontent.com/teamjmflist/list/master/radios%20e%20webcams</externallink>
+<thumbnail>https://roddycleere.files.wordpress.com/2015/11/shutterstock_104927240.jpg</thumbnail>
+<fanart>https://i.imgsafe.org/70b260028a.jpg</fanart>
+</item>
+
+
+<item>     
+<title>[COLOR red]•[/COLOR][COLOR gold]  Várias agendas desportivas - Plexus/Sopcast [/COLOR]</title>
+<link>_</link>
+<jsonrpc>plugin://plugin.video.plexus-streams?mode=400</jsonrpc>
+<thumbnail>https://i.imgsafe.org/7ad825e711.png</thumbnail>
+<fanart>https://i.imgsafe.org/70b260028a.jpg</fanart>
+</item>
+
+
+
+<item>
+	<title>[COLOR red]•[/COLOR][COLOR gold]  Canais Arenavision [/COLOR]</title>
+	<link>_</link>
+	<externallink>https://raw.githubusercontent.com/teamjmflist/list/master/canais%20arenavision</externallink>
+	<thumbnail>https://i.imgsafe.org/7ad4c6a5b8.png</thumbnail>
+	<fanart>https://i.imgsafe.org/70b260028a.jpg</fanart>
+</item>
+
+
+<item>     
+<title>[COLOR red]•[/COLOR][COLOR green]  KodiLiveTV [/COLOR]</title>
+<link>_</link>
+<jsonrpc>plugin://plugin.video.kodilivetv/</jsonrpc>
+<thumbnail>https://seo-michael.co.uk/content/images/2016/01/kltvfeatured.jpg</thumbnail>
+<fanart>https://i.imgsafe.org/70b260028a.jpg</fanart>
+</item>
+
+
+
+<_item>     
+<title>[COLOR red]•[/COLOR][COLOR green]  RTP Play [/COLOR]</title>
+<link>_</link>
+<jsonrpc>plugin://plugin.video.rtpplay/</jsonrpc>
+<thumbnail>http://media.rtp.pt/institucional/wp-content/uploads/sites/31/2015/07/thumb_rtpPlay_00.jpg</thumbnail>
+<fanart>https://i.imgsafe.org/70b260028a.jpg</fanart>
+</item>
+
+
+<_item>     
+<title>[COLOR red]•[/COLOR][COLOR green]  TVI Player [/COLOR]</title>
+<link>_</link>
+<jsonrpc>plugin://plugin.video.tviplayer/</jsonrpc>
+<thumbnail>https://lh3.googleusercontent.com/x4FZiRzK_nqA8ZSX6aNyw9HLmvLMhQplIxAvzOXbQSrrh71GNMpFU-d9voFjyZ_Z-Q=w300</thumbnail>
+<fanart>https://i.imgsafe.org/70b260028a.jpg</fanart>
+</item>
+
+
+<item>
+	<title>[COLOR red]•[/COLOR][COLOR skyblue]  Maintenance Tool [/COLOR]</title>
+	<link>_</link>
+	<externallink>https://raw.githubusercontent.com/teamjmflist/list/master/maintenance%20tool</externallink>
+	<thumbnail>https://i.imgsafe.org/70b3b27c63.png</thumbnail>
+	<fanart>https://i.imgsafe.org/70b260028a.jpg</fanart>
+</item>
+
+<item>
+	<title>[COLOR red]•[/COLOR][COLOR snow]  Test Zone[/COLOR]</title>
+	<link>_</link>
+	<externallink>https://raw.githubusercontent.com/teamjmflist/list/master/testes</externallink>
+	<thumbnail>http://media.tumblr.com/tumblr_m55ybrgExP1qeda2c.gif</thumbnail>
+</item>
