@@ -30,7 +30,7 @@
  <fanart></fanart>
  ]]></listrepeat>
 <expres>Lista:"(.*?)" URL="(.*?)"</expres>
-<page>https://pastebin.com/raw/kg6T6Cju</page>
+<page>http://pastebin.com/raw/1pUQc22r</page>
 </regex>
 <regex>
 <name>makelist</name>
