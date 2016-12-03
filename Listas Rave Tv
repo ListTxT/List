@@ -26,8 +26,8 @@
 <listrepeat><![CDATA[
  <title>[COLOR red]•[/COLOR][COLOR white]  [makelist2.param1][/COLOR]</title>
  <link>$doregex[makelist]</link>
- <thumbnail>https://i.imgsafe.org/7ad9b6912f.png</thumbnail>
- <fanart></fanart>
+ <thumbnail>https://3.bp.blogspot.com/-ufwi6FuxVI0/VuqBqCN1IMI/AAAAAAAAAOU/34DhiIgTjQAEPPww_Yi3KpbagXKPja5LA/s200/unnamed.png</thumbnail>
+ <fanart>https://goo.gl/20FLFn</fanart>
  ]]></listrepeat>
 <expres>Lista:"(.*?)" URL="(.*?)"</expres>
 <page>http://pastebin.com/raw/1pUQc22r</page>
@@ -37,7 +37,8 @@
 <listrepeat><![CDATA[
  <title>[COLOR red]•[/COLOR][COLOR white]  [makelist.param1][/COLOR]</title>
  <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;name=Team j2mf4: [makelist.param1]</link>
- <thumbnail>https://i.imgsafe.org/7ad9b6912f.png</thumbnail>
+<thumbnail>https://3.bp.blogspot.com/-ufwi6FuxVI0/VuqBqCN1IMI/AAAAAAAAAOU/34DhiIgTjQAEPPww_Yi3KpbagXKPja5LA/s200/unnamed.png</thumbnail>
+ <fanart>https://goo.gl/20FLFn</fanart>
  ]]></listrepeat>
 <expres>#EXTINF.*?,(.*?)\n(.*[ts])</expres>
 <page>[makelist2.param2]</page>
