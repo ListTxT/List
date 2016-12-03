@@ -42,5 +42,6 @@
 <expres>#EXTINF.*?,(.*?)\n(.*[ts])</expres>
 <page>[makelist2.param2]</page>
 </regex>
-<thumbnail>https://i.imgsafe.org/7ad9b6912f.png</thumbnail>
+<fanart>https://goo.gl/20FLFn</fanart>
+<thumbnail>https://3.bp.blogspot.com/-ufwi6FuxVI0/VuqBqCN1IMI/AAAAAAAAAOU/34DhiIgTjQAEPPww_Yi3KpbagXKPja5LA/s200/unnamed.png</thumbnail>
 </item>
