@@ -16,15 +16,16 @@
 
 <item>
 <title>[COLOR red]•[/COLOR][COLOR white]   Radio[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
  <title>[COLOR red]•[/COLOR][COLOR white]  [makelist.param1][/COLOR]</title>
- <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist.param1]</link>
-<thumbnail>https://3.bp.blogspot.com/-ufwi6FuxVI0/VuqBqCN1IMI/AAAAAAAAAOU/34DhiIgTjQAEPPww_Yi3KpbagXKPja5LA/s200/unnamed.png</thumbnail>
+ <link>plugin://plugin.video.f4mTester/?url=[makelist.param3]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist.param1]</link>
  <fanart>https://goo.gl/20FLFn</fanart>
  ]]></listrepeat>
-<expres>#EXTINF.*?,(.*?)\n(.*[ts])</expres>
-<page>[makelist2.param2]</page>
+<expres>NOME=(.*?)\nLOGO=(.*[jpg|png]).*?\n(.*?)\n(.*?)\n(.*?)\n</expres>
+<page>http://pastebin.com/raw/daXFhccq</page>
 </regex>
 <fanart>https://goo.gl/20FLFn</fanart>
 <thumbnail>https://3.bp.blogspot.com/-ufwi6FuxVI0/VuqBqCN1IMI/AAAAAAAAAOU/34DhiIgTjQAEPPww_Yi3KpbagXKPja5LA/s200/unnamed.png</thumbnail>
