@@ -12,9 +12,10 @@
 <cookieJar></cookieJar>
 </regex>
 
+
+
 <item>
-<title>[COLOR red]•[/COLOR][COLOR white]   Radios[/COLOR]</title>
-<regex>
+<title>[COLOR red]•[/COLOR][COLOR white]   Radio[/COLOR]</title>
 <name>makelist</name>
 <listrepeat><![CDATA[
  <title>[COLOR red]•[/COLOR][COLOR white]  [makelist.param1][/COLOR]</title>
@@ -23,7 +24,7 @@
  <fanart>https://goo.gl/20FLFn</fanart>
  ]]></listrepeat>
 <expres>#EXTINF.*?,(.*?)\n(.*[ts])</expres>
-<page>http://pastebin.com/raw/daXFhccq</page>
+<page>[makelist2.param2]</page>
 </regex>
 <fanart>https://goo.gl/20FLFn</fanart>
 <thumbnail>https://3.bp.blogspot.com/-ufwi6FuxVI0/VuqBqCN1IMI/AAAAAAAAAOU/34DhiIgTjQAEPPww_Yi3KpbagXKPja5LA/s200/unnamed.png</thumbnail>
