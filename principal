@@ -11,26 +11,6 @@
 
 
 
-<item>
-<title>[COLOR red]•[/COLOR][COLOR white]   Radios[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<fanart>https://goo.gl/20FLFn</fanart>
-<thumbnail>http://logofaves.com/wp-content/uploads/2011/10/radio_m.jpg?3660fb</thumbnail>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-	<title>[COLOR red]•[/COLOR][COLOR white]  [makelist.param1][/COLOR]</title>
-	<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist.param1]</link>
-	<thumbnail>http://logofaves.com/wp-content/uploads/2011/10/radio_m.jpg?3660fb</thumbnail>
-	<fanart>https://goo.gl/20FLFn</fanart>
-]]></listrepeat>
-<expres>NOME=(.*?)\nLOGO=(.*[jpg|png]).*?\n(.*?)\n(.*?)\n(.*?)\n</expres>
-<page>http://pastebin.com/raw/daXFhccq</page>
-</regex>
-</item>
-
-
-
 <item>     
 <title>[COLOR red]•[/COLOR][COLOR white]   Agendas Desportivas - Plexus/Sopcast[/COLOR]</title>
 <link>_</link>
